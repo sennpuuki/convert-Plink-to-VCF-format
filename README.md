@@ -46,7 +46,7 @@ Output:
 `input_rmreverse.vcf`
 
 ## Step 3 - fix REF
-Tool: [Dave Tang's blog](https://davetang.org/muse/2015/08/19/converting-ped-into-vcf/)
+Tool: [script from Brad Chapman](https://github.com/chapmanb/bcbb/blob/master/nextgen/scripts/plink_to_vcf.py)
 
 For people who do not have PLINKSEQ and older PLINK, we can borrow the last part of the python script from [Dave Tang's blog](https://davetang.org/muse/2015/08/19/converting-ped-into-vcf/).
 Note that python package [bx](https://github.com/bxlab/bx-python) is required for this script to run. Also, reference genome is required.
