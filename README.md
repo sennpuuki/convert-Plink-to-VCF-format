@@ -54,7 +54,11 @@ Tool: [script from Brad Chapman](https://github.com/chapmanb/bcbb/blob/master/ne
 For people who do not have PLINKSEQ and older PLINK, we can borrow the last part of the python script from [here](https://github.com/chapmanb/bcbb/blob/master/nextgen/scripts/plink_to_vcf.py).
 Note that python package [bx](https://github.com/bxlab/bx-python) is required for this script to run. Also, reference genome is required.
 
-Use: `plink_to_vcf-partial.py input_rmreverse.vcf hg19.2bit`
+Use: 
+`wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit`
+
+`plink_to_vcf-partial.py input_rmreverse.vcf hg19.2bit`
+
 Output: 
 `input_rmreverse-fix.vcf`
 
