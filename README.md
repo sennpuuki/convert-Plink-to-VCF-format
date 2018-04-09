@@ -39,7 +39,7 @@ PLINK does have the recode function to convert PLINK files into VCF. But the res
 ```
 which means that the allele at REF column in the resulting VCF is not necessarily REF.
 
-We PLINK v1.9 to do the conversion first and then fix the REF issue in Step 3.
+We use PLINK v1.9 to do the conversion first and then fix the REF issue in Step 3.
 
 Use: `plink --bfile input_rmreverse --recode vcf --out input_rmreverse`
 Output: 
