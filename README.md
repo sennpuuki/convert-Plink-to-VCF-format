@@ -5,6 +5,9 @@ Input files:
 `input.bed`
 `input.fam`
 
+Output:
+`input_rmreverse-fix.vcf`
+
 ## Step 1 - Flip SNPs on reverse strand to forward strand
 Tool: [Snpflip](https://github.com/biocore-ntnu/snpflip)
 
