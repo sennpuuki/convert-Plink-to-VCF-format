@@ -1,6 +1,7 @@
 # convert-Plink-to-VCF-format
 
 Input files:
+
 `input.bim`
 
 `input.bed`
