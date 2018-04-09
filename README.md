@@ -10,4 +10,9 @@ Illumina's exome SNP array (e.g. Illumina HumanOmniExpressExome v1.2 BeadChip) h
 So the first thing to do is to flip all SNPs on reverse strand to forward strand in terms of hg19.
 
 [Snpflip](https://github.com/biocore-ntnu/snpflip) is used to do this.
-The
+It outputs three files:
+`<prefix>.reverse` 
+`<prefix>.ambiguous` 
+`<prefix>.annotated_bim` 
+
+The 
