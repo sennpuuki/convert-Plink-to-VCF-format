@@ -12,7 +12,19 @@ So the first thing to do is to flip all SNPs on reverse strand to forward strand
 [Snpflip](https://github.com/biocore-ntnu/snpflip) is used to do this.
 It outputs three files:
 `<prefix>.reverse` 
+
 `<prefix>.ambiguous` 
+
 `<prefix>.annotated_bim` 
 
-The 
+
+The `<prefix>.ambiguous` file contains the SNPs that cannot be assigned to strand. So these SNPs are removed for further analysis (in my case, there are about 4.5% SNPs are ambiguous).
+
+Then use plink's `--flip` to flip all SNPs in `<prefix>.reverse` to forward strand.
+
+## Step 2 - PLINK v1.9 --recode vcf
+Tool: [PLINK v1.9](https://www.cog-genomics.org/plink2)
+
+
+
+
