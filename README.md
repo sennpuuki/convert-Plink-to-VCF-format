@@ -1,11 +1,8 @@
 # convert-Plink-to-VCF-format
 
 Input files:
-
 `input.bim`
-
 `input.bed`
-
 `input.fam`
 
 ## Step 1 - Flip SNPs on reverse strand to forward strand
@@ -18,9 +15,7 @@ So the first thing to do is to flip all SNPs on reverse strand to forward strand
 [Snpflip](https://github.com/biocore-ntnu/snpflip) is used to do this.
 It outputs three files:
 `input.reverse` 
-
 `input.ambiguous` 
-
 `input.annotated_bim` 
 
 
